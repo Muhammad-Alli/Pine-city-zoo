@@ -1,0 +1,219 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+}
+
+/*===================== HEADER =====================*/
+#header{
+
+    position:fixed;                                 /*Since using position, have to specify where it must be fixed (top left of screen) next line follows*/
+    top:0px;
+    left:0px;
+    z-index:500;                                    /*Overlay on top of other element, like brought to front (closer to user)*/
+    width: 100%;
+    height: 80px;
+    background-image: url('images/wood-bg.png');    /*This makes the image a background image - it places it in the back ground under other elements(further away from user)*/
+    background-repeat: repeat-x;                    /*This says repeat the image in the horizonal direction for the entire width of the header section*/
+}
+
+#header img{
+
+    display: block;                                 /*Able to adjust width and height of the image*/
+    margin: auto;                                   /*Centralise an object within its parent -> the #header*/
+    height: 70%;                                    /*Set height, and width automatically set*/
+    padding: 15px;
+
+}
+
+/*=================== TOP-TABS ====================*/
+#tabs-top{
+
+    position: fixed;
+    top: 80px;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(29, 134, 5);
+    
+}
+
+#tabs-top a{
+    
+    display: block;                                 /*Also forces the text of each link to be positioned one below the other instead of left to right so need to use next command*/
+    float: left;                                    /*Forces text of each link to be position one after the other from left to right*/
+    width: 33%;
+    height: 35px;                                   /*Makes no differrence if there or not because text floated to left*/
+    color: white;
+    font-weight: 800;                               /*Adjust boldness*/
+    font-size: 20px;
+    text-align: center;
+    padding-top: 6px;                                /*Align vertically*/
+    text-decoration: none;
+
+}
+
+/*==================== main-home ====================*/
+#main-home{
+
+    margin-top: 120px;
+
+}
+
+/*=================== tabs-bottom ==================*/
+#tabs-bottom{
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
+    background-color: rgb(29, 134, 5);
+
+}
+
+#tabs-bottom a{
+    
+    display: block;                                 /*Also forces the text of each link to be positioned one below the other instead of left to right so need to use next command*/
+    float: left;                                    /*Forces text of each link to be position one after the other from left to right*/
+    width: 50%;
+    height: 35px;                                   /*Makes no differrence if there or not because text floated to left*/
+    font-weight: 800;                               /*Adjust boldness*/
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding-top: 6px;                                /*Align vertically*/
+
+}
+
+/*=================== ANIMALS-MAIN ================*//* This contains properties for the back ground image (main)and how big the space must be for the background image surrounding the info box content (content)*/
+#main {
+    margin-top: 120px;
+    background-image: url(images/map-blur.png);
+    background-repeat: repeat-y;
+}
+
+#content {
+    padding-top: 1px;
+    padding-bottom: 50px;
+
+}
+
+/*==================== INFO-BOX ====================*/
+a.info-box{                                         /*Is an class so is . and because its hyperlink it is referred to as "a." */
+    text-decoration: none;
+    background: rgba(255,255,255, 0.8);           /*First 3 for colour, the last property is transparency*/
+    width: 90%;
+    height: 90px;
+    display: block;
+    margin: auto;                                   /*Centralised to the screen*/
+    margin-top: 12px;                               /*The boxes will have a gap of 12px between them*/
+    padding: 1px;
+}
+
+.info-box img{                                      /*Images */
+    height:70px;
+    margin:10px;
+    float: left;
+
+}
+
+.info-box h3{
+    padding:0;
+    margin-bottom: 0;
+    width: 90%;
+    color:#572800;  
+}
+
+.info-box p{
+    padding:0;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 90%;
+    color:#131313;  
+}
+
+.info-box img.right{                                 /*Any image that has a class name of right and appears inside the info-box hyperlink will have the following styles*/
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+
+}
+
+/*================== INFO-BOX-FULL =================*/
+#info-box-full{
+    background: rgba(255,255,255, 0.8);           /*First 3 for colour, the last property is transparency*/
+    width: 90%;
+    display: block;
+    margin: auto;                                   /*Centralised to the screen*/
+    margin-top: 12px;                               /*The boxes will have a gap of 12px between them*/
+    padding: 10px;
+}
+
+#info-box-full img{
+    width:100%;                                     /*Prevents the image when bigger to overflow outside the box, makes it fit the box with padding applied in parent class info-box-full*/
+}
+
+#info-box-full h3{
+    text-align: center;
+    font-weight: 800;
+}
+
+/*==================== WEATHER ===================*/
+img.info-box-weather-icon{
+    height: 30px;
+    width: 30px !important;                         /*To overwrite line 159*/
+    margin: 10px;
+    float: left;
+ 
+}
+
+h1.info-box-weather-icon{
+    font-size: 65px; 
+    font-weight: 200;
+    margin: 0;
+}
+
+table{
+    width:100%;
+    
+}
+
+td{
+    border-top: 1px solid #131313;
+}
+
+/*==================== FEEDBACK ===================*/
+input{
+    width:99%;
+    margin: 10px 0;                                  /*The 0 means no marging left to right, only top and bottom*/
+    height: 25px;
+    border : 1px solid #929292;
+ 
+}
+
+textarea{
+    width: 99%;
+    margin: 10px 0;
+    height: 75px;
+    border: 1px solid #929292;
+}
+
+.button{
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding-top: 12px;
+    margin: 10px 0;                                                                                                                   
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    background-color:  rgb(29, 134, 5);
+}
+
