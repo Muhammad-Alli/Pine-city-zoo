@@ -35,7 +35,7 @@ A multi-page HTML and CSS website built to showcase the **Pine City Zoo** — a 
 <img width="300" height="450" alt="Weather information screen" src="https://github.com/user-attachments/assets/22a2b582-4f17-4cce-a05c-d5f35bb1a16d" />
 <img width="300" height="450" alt="Places interface screen" src="https://github.com/user-attachments/assets/11440ce2-4dc0-48a0-bafe-7cf612e80325" />
 <img width="300" height="450" alt="Map interface screen" src="https://github.com/user-attachments/assets/0a643325-d900-468b-94bb-91ffdfa6a8ad" />
-<img width="300" height="400" alt="Feedback interface screen" src="https://github.com/user-attachments/assets/dea3eb7e-afbe-4932-872d-a9193d285e88" />
+<img width="300" height="380" alt="Feedback interface screen" src="https://github.com/user-attachments/assets/dea3eb7e-afbe-4932-872d-a9193d285e88" />
 <img width="300" height="450" alt="Coffee shop information screen" src="https://github.com/user-attachments/assets/29ffb55b-fb1b-4725-abb3-63dbe6242d87" />
 <img width="300" height="450" alt="Animals interface screen" src="https://github.com/user-attachments/assets/13acfb78-4113-4432-a479-c7144d67bace" />
 
