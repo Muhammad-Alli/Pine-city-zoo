@@ -22,7 +22,7 @@ A multi-page HTML and CSS website built to showcase the **Pine City Zoo** — a 
 - **CSS3** – external stylesheet for layout, styling, and navigation visuals
 - **Static Assets** – local images for backgrounds, icons, thumbnails
 
- ** No JavaScript ** or frameworks used. Entirely static.
+ **No JavaScript** used. Entirely static.
 
 ---
 
